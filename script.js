@@ -1,10 +1,9 @@
-// Liste des musiques (à remplir avec les noms de fichiers dans votre dossier /music)
+// Liste des musiques
 const musicList = [
     { file: '22.mp3', artiste: 'Nekfeu', chanson: '22', image: '22.jpg' },
     { file: 'outro.mp3', artiste: 'M83', chanson: 'Outro', image: 'outro.jpg' },
     { file: 'lady.mp3', artiste: 'Modjo', chanson: 'Lady', image: 'lady.jpg' },
     { file: 'stardust.mp3', artiste: 'Stardust', chanson: 'Music sounds better with you', image: 'stardust.jpg' },
-    // Ajoutez d'autres musiques ici
 ];
 
 let audio;
