@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlindTest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="accueil" class="box">
+        <h2 class="titre-blind">Blind Test</h2>
+        <button id="btnJouer" class="btn-jouer">Jouer</button>
+    </div>
+    <div id="countdown" class="countdown" style="display:none;">
+        La partie commence dans <span id="timer">5</span>s
+    </div>
+    <div id="jeu" class="box" style="display:none;">
+        <div id="barreProgression"></div>
+        <h4 id="indice" class="titre-question">?</h4>
+        <form id="reponseForm">
+            <input type="text" id="reponse" placeholder="Entrez l'artiste ou le nom de la chanson">
+            <div id="resultat"></div>
+            <div id="resultatInputs">
+                <input type="text" id="artisteInput" placeholder="Artiste" readonly>
+                <input type="text" id="chansonInput" placeholder="Chanson" readonly>
+            </div>
+        </form>
+    </div>
+    <button id="btnSuivant" class="btn-jouer" style="display:none;">Suivant</button>
+    <script src="script.js"></script>
+</body>
+</html>
